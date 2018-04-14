@@ -1,7 +1,7 @@
 // Code your solution in this file!
 
 const returnFirstTwoDrivers = (drivers) => {
-  return drivers.slice(1,3);
+  return drivers.slice(0,2);
 }
 function countdown(callback) {
   window.setTimeout(callback,2000);
