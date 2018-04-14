@@ -10,7 +10,7 @@ const returnLastTwoDrivers = (drivers) => {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-const createFareMultiplier = (num) => {
+const createFareMultiplier = (number) => {
   let num = number;
   return (num) => num * number;
 }
