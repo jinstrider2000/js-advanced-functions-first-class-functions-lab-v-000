@@ -1,4 +1,8 @@
 // Code your solution in this file!
+
+const returnFirstTwoDrivers = (drivers) => {
+  return drivers.slice(1,3);
+}
 function countdown(callback) {
   window.setTimeout(callback,2000);
 }
