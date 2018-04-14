@@ -10,8 +10,9 @@ const returnLastTwoDrivers = (drivers) => {
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-function countdown(callback) {
-  window.setTimeout(callback,2000);
+const createFareMultiplier = (num) => {
+  let num = number;
+  return (num) => num * number;
 }
 
 function createMultiplier(number) {
