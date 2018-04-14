@@ -8,9 +8,8 @@ const returnLastTwoDrivers = (drivers) => {
   return drivers.slice(-2);
 }
 
-const selectingDrivers = (drivers) => {
-  return [returnFirstTwoDrivers, returnLastTwoDrivers]
-}
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
+
 function countdown(callback) {
   window.setTimeout(callback,2000);
 }
